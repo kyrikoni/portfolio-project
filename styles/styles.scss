@@ -151,8 +151,9 @@ section {
     }
     .image {
       border-radius: var(--br-sm-2);
-      height: 90%;
+      height: 75%;
       width: 68%;
+      object-fit: cover;
       margin-left: 4rem;
       transition: var(--transition-1);
       img {
@@ -334,6 +335,7 @@ section {
 .portfolio-text {
   padding: 2rem 0;
   text-align: center;
+  color: var(--color-grey-1);
 }
 
 .portfolios-container {
@@ -352,12 +354,14 @@ section {
       border-radius: 15px;
     }
     .port-item-title {
+      color: var(--color-grey-1);
       text-align: center;
       font-size: 1.5rem;
       text-transform: uppercase;
       font-weight: 600;
     }
     .port-item-description {
+      color: var(--color-grey-2);
       text-align: center;
       font-size: 1rem;
     }
