@@ -339,14 +339,13 @@ section {
 .portfolios-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
   grid-gap: 2rem;
-  margin-top: 3rem;
   .portfolio-item {
     position: relative;
     border-radius: 15px;
     padding: 1rem;
-    img {
+    .image {
+      border: 5px inset var(--color-secondary);
       width: 450px;
       height: 350px;
       object-fit: cover;
