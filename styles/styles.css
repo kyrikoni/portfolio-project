@@ -465,6 +465,7 @@ section {
 .contact-content-container .contact-icons .contact-icon .icon:hover {
   background-color: var(--color-button);
   color: var(--color-primary);
+  border-radius: 25%;
 }
 
 /*Independent Components*/

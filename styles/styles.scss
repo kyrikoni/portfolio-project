@@ -458,9 +458,10 @@ section {
         padding: 1rem;
         color: var(--color-button);
         &:hover {
-            background-color: var(--color-button);
-            color: var(--color-primary);
-          }
+          background-color: var(--color-button);
+          color: var(--color-primary);
+          border-radius: 25%;
+        }
       }
     }
   }
