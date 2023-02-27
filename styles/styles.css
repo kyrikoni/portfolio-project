@@ -359,8 +359,8 @@ section {
 }
 .portfolios-container .portfolio-item .image {
   border: 5px inset var(--color-secondary);
-  width: 450px;
-  height: 350px;
+  width: 100%;
+  height: 30;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px;
@@ -569,8 +569,13 @@ section {
   .about-container .left-about p {
     padding-left: 0;
   }
+  .about-skills-container {
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
   .about-skills-container .skill {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }

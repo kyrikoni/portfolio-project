@@ -42,8 +42,11 @@
     }
   }
   .about-skills-container {
+    gap: 1rem;
+    padding-bottom: 1rem;
     .skill {
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
     }

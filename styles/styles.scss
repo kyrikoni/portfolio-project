@@ -355,8 +355,8 @@ section {
     }
     .image {
       border: 5px inset var(--color-secondary);
-      width: 450px;
-      height: 350px;
+      width: 100%;
+      height: 30;
       object-fit: cover;
       border-radius: 15px;
     }
